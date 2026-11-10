@@ -1,0 +1,14 @@
+hai big pickle kita akan melakukan obrolan dengan full menggunakan
+bahasa indonesia nah coba kamu lihat file dengan nama "SPK.txt"
+nah kamu baca dulu.
+
+jadi aku mendapatkan SPK seperti itu, aku meminta kamu agar memandu
+aku dalam menjalankan spk tersebut dengan menuntun ku dari
+setiap langkah yang diperintahkan oleh spk sampai semua fitur terbuat
+atau dalam kata lain webnya telah jadi
+dan aku minta setiap perubahan atau setiap arahan mu di tuliskan pada
+1 file, buat lah file dengan nama "runtutan implementasi" ditulis dengan
+perubahan apa saja di dilakukan dan penjelasan fitur apa yang dibuat atau dirubah
+serta diletakkan di folder atau file mana dalam folder project web beserta
+hari tanggal bulan dan tahun perubahan nya baik kita mulai dari langkah
+awal sesuai dengan SPK. kamu hanya perlu memberikan code apa yang harus kutulis atau langkah apa yang harus kulakukan seperti buat file/folder dll, lalu aku akan menerapkan perintahmu setelah itu kamu catat perubahan yang aku lakukan beserta perintah yang kamu berikan

@@ -1,0 +1,258 @@
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+
+SURAT PENGANTAR KERJA KOMPETENSI KEAHLIAN
+
+TAHUN PELAJARAN 2026/2027
+
+SOAL PROYEK KEJURUAN
+
+Kelas : XII
+Kompetensi Keahlian : Pengembangan Perangkat Lunak dan Gim (PPLG)
+Konsentrasi : Pemrograman Web
+Alokasi Waktu : 1 Bulan (Bulan September)
+Bentuk Soal : Penugasan Perorangan
+Judul Tugas/Proyek : Sistem Informasi Klinik Berbasis Web
+
+I. PETUNJUK UMUM
+1. Periksalah dengan teliti dokumen soal proyek kejuruan sebelum memulai pekerjaan.
+2. Periksalah perangkat keras (hardware), perangkat lunak (software), dan bahan pendukung
+yang dibutuhkan.
+3. Gunakan peralatan utama dan peralatan keselamatan kerja yang telah disediakan sesuai
+ketentuan.
+4. Gunakan peralatan sesuai dengan SOP (Standard Operating Procedure) yang berlaku.
+5. Bekerjalah dengan memperhatikan arahan Guru Pembimbing/Guru Manajemen Proyek.
+6. Dilarang melakukan plagiarisme, menyalin, atau saling berbagi (sharing) dengan peserta
+didik lain.
+7. Lakukan konsultasi dan laporkan perkembangan (progress) proyek secara berkala sesuai
+jadwal yang telah ditentukan.
+8. Setelah proyek selesai, lakukan pengujian/pengecekan terhadap seluruh proyek sebelum
+dikumpulkan sesuai waktu yang telah ditetapkan.
+
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+
+II. SOAL/TUGAS
+Sebuah klinik membutuhkan sistem informasi berbasis web untuk membantu proses administrasi
+dan pelayanan pasien. Sistem yang dikembangkan harus mampu mengelola data pasien, dokter,
+jadwal praktik, pendaftaran, antrean, pemeriksaan, rekam medis, obat, resep, pembayaran, dan
+laporan.
+Buatlah Sistem Informasi Klinik Berbasis Web menggunakan CodeIgniter 3 atau Laravel dengan
+database MySQL. Sistem harus menerapkan konsep MVC, CRUD, autentikasi, hak akses,
+validasi data, relasi database, pencarian, filter, dan laporan.
+Sistem harus memiliki tiga pengguna utama, yaitu Admin/Petugas, Dokter, dan Pasien, dengan
+hak akses yang berbeda sesuai dengan kebutuhan masing-masing pengguna.
+Ketentuan Pengerjaan
+1. Sistem dikembangkan menggunakan CodeIgniter 3 atau Laravel.
+2. Database menggunakan MySQL.
+3. Sistem menerapkan konsep MVC.
+4. Setiap modul harus memiliki struktur program yang terorganisir dan saling terhubung.
+5. Setiap data yang dikelola harus menerapkan proses CRUD sesuai kebutuhan.
+6. Penamaan function harus konsisten menggunakan snake_case dan diawali dengan nama
+modul.
+7. Contoh standar penamaan function:
+antrian_data(), antrian_add(), antrian_edit(), antrian_hapus()
+8. Contoh tersebut menjadi standar penamaan yang diterapkan pada modul lainnya.
+9. Sistem harus memiliki autentikasi dan hak akses pengguna.
+10. Setiap form harus memiliki validasi.
+11. Sistem harus memiliki tampilan yang rapi, responsif, dan mudah digunakan.
+Pengerjaan :
+1. Membuat Database Klinik
+Buat database db_klinik beserta tabel yang diperlukan untuk mendukung seluruh proses sistem.
+Minimal terdapat tabel pengguna, pasien, dokter, jadwal dokter, pendaftaran, antrean,
+pemeriksaan, rekam medis, tindakan, obat, resep, detail resep, pembayaran, dan detail
+pembayaran.
+
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+
+2. Membuat Login dan Hak Akses
+Buat sistem login untuk Admin/Petugas, Dokter, dan Pasien.
+Setiap pengguna harus diarahkan ke halaman sesuai dengan hak aksesnya.
+3. Membuat Dashboard
+Buat dashboard yang menampilkan informasi penting sesuai dengan role pengguna.
+Dashboard Admin dapat menampilkan jumlah pasien, dokter, pendaftaran, antrean, obat, dan
+transaksi.
+Dashboard Dokter menampilkan jadwal dan daftar pasien yang harus diperiksa.
+Dashboard Pasien menampilkan informasi pendaftaran dan riwayat pelayanan.
+4. Membuat Data Pasien
+Buat fitur pengelolaan data pasien yang meliputi nomor rekam medis, NIK, nama, jenis kelamin,
+tanggal lahir, alamat, nomor telepon, dan data pendukung lainnya.
+Admin dapat melakukan pengelolaan data pasien.
+Contoh standar function:
+pasien_data(), pasien_add(), pasien_edit(), pasien_hapus()
+5. Membuat Data Dokter
+Buat fitur pengelolaan data dokter yang meliputi kode dokter, nama dokter, spesialisasi, nomor
+telepon, alamat, dan status dokter.
+Contoh standar function:
+dokter_data(), dokter_add(), dokter_edit(), dokter_hapus()
+6. Membuat Jadwal Dokter
+Buat fitur untuk mengatur jadwal praktik dokter berdasarkan hari, jam, ruang, dan kuota pasien.
+Sistem harus mencegah jadwal yang bertabrakan.
+
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+
+Contoh standar function:
+jadwal_data(), jadwal_add(), jadwal_edit(), jadwal_hapus()
+7. Membuat Pendaftaran Pasien
+Buat fitur pendaftaran pasien dengan memilih dokter, jadwal praktik, tanggal kunjungan, dan
+keluhan awal.
+Sistem harus menghasilkan nomor pendaftaran.
+Contoh standar function:
+pendaftaran_data(), pendaftaran_add(), pendaftaran_edit(), pendaftaran_hapus()
+8. Membuat Antrean Pasien
+Buat fitur antrean berdasarkan pendaftaran pasien.
+Sistem harus memberikan nomor antrean dan status pelayanan.
+Status antrean minimal terdiri dari Menunggu, Dipanggil, Diperiksa, Selesai, dan Batal.
+Contoh standar function:
+antrian_data(), antrian_add(), antrian_edit(), antrian_hapus()
+9. Membuat Pemeriksaan Pasien
+Buat fitur pemeriksaan yang digunakan dokter untuk mencatat keluhan, pemeriksaan fisik,
+diagnosis, tindakan, dan catatan pemeriksaan pasien.
+Contoh standar function:
+pemeriksaan_data(), pemeriksaan_add(), pemeriksaan_edit(), pemeriksaan_hapus()
+10. Membuat Rekam Medis
+Buat fitur rekam medis yang menyimpan riwayat pemeriksaan pasien.
+Dokter dapat melihat riwayat pemeriksaan pasien berdasarkan tanggal pelayanan.
+
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+
+Contoh standar function:
+rekam_medis_data(), rekam_medis_detail()
+11. Membuat Data Tindakan
+Buat fitur untuk mengelola jenis tindakan yang tersedia di klinik beserta tarifnya.
+Contoh standar function:
+tindakan_data(), tindakan_add(), tindakan_edit(), tindakan_hapus()
+12. Membuat Data Obat
+Buat fitur pengelolaan obat yang meliputi kode obat, nama obat, jenis obat, satuan, harga, stok,
+tanggal kedaluwarsa, dan status obat.
+Contoh standar function:
+obat_data(), obat_add(), obat_edit(), obat_hapus()
+13. Membuat Resep Obat
+Buat fitur resep yang digunakan dokter untuk memberikan obat kepada pasien berdasarkan hasil
+pemeriksaan.
+Satu resep dapat memiliki beberapa obat.
+Contoh standar function:
+resep_data(), resep_add(), resep_edit(), resep_hapus()
+14. Mengelola Stok Obat
+Sistem harus dapat mencatat perubahan stok obat. Ketika obat diberikan kepada pasien, stok
+harus berkurang sesuai jumlah obat yang diberikan.
+Sistem tidak boleh memberikan obat apabila stok tidak mencukupi.
+15. Membuat Pembayaran
+
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+
+Buat fitur pembayaran berdasarkan pelayanan yang diterima pasien, seperti biaya pemeriksaan,
+tindakan, dan obat.
+Sistem harus menghitung total pembayaran secara otomatis.
+Contoh standar function:
+pembayaran_data(), pembayaran_add(), pembayaran_edit(), pembayaran_hapus()
+16. Membuat Detail Pembayaran
+Buat detail transaksi yang menunjukkan rincian biaya pelayanan pasien.
+Rincian pembayaran minimal terdiri atas jenis pelayanan, nama pelayanan, jumlah, harga, dan
+subtotal.
+17. Membuat Pencarian dan Filter Data
+Buat fitur pencarian dan filter pada data yang memiliki jumlah besar.
+Pencarian pasien dapat berdasarkan nama, NIK, atau nomor rekam medis.
+Data pemeriksaan dan pembayaran dapat difilter berdasarkan dokter dan periode tanggal.
+18. Membuat Laporan
+Buat laporan yang dapat digunakan oleh Admin/Petugas untuk mengetahui aktivitas klinik.
+Minimal terdiri atas laporan:
+1. Data pasien
+2. Data dokter
+3. Pendaftaran pasien
+4. Antrean
+5. Pemeriksaan
+6. Rekam medis
+7. Obat
+8. Pembayaran
+
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+Laporan dapat difilter berdasarkan periode tertentu.
+19. Membuat Cetak Data dan Laporan
+Buat fitur cetak untuk data atau laporan yang diperlukan.
+Contoh standar function:
+pasien_cetak(), resep_cetak(), pembayaran_cetak(), laporan_cetak()
+20. Menerapkan Validasi
+Terapkan validasi pada seluruh form agar data yang dimasukkan sesuai dengan kebutuhan
+sistem.
+Validasi minimal diterapkan pada data pasien, dokter, jadwal, pendaftaran, pemeriksaan, obat,
+resep, dan pembayaran.
+21. Menerapkan Hak Akses
+Atur hak akses setiap pengguna agar hanya dapat mengakses fitur yang sesuai.
+Admin/Petugas mengelola administrasi klinik.
+Dokter mengelola pemeriksaan, rekam medis, dan resep.
+Pasien melakukan pendaftaran dan melihat informasi pelayanan miliknya.
+22. Mengintegrasikan Seluruh Proses
+Seluruh modul harus saling terhubung.
+Alur utama sistem:
+Pasien → Pendaftaran → Antrean → Pemeriksaan → Rekam Medis → Resep → Obat →
+Pembayaran → Laporan
+Data yang telah dimasukkan pada satu proses harus dapat digunakan pada proses berikutnya
+tanpa melakukan input ulang yang tidak diperlukan.
+23. Melakukan Pengujian Sistem
+
+YAYASAN ASSALAFIYYAH MLANGI
+SMK ASSALAFIYYAH SLEMAN
+Alamat: Jl. Kiai Masduqi Mlangi Nogotirto Gamping Sleman DIY 55592
+
+Kompetensi Keahlian : DKV dan PPLG
+Telp/WA: 081393128882 Email: smkassalafiyyah@gmail.com
+
+Website: https://smkam.sch.id
+Lakukan pengujian terhadap seluruh fitur yang telah dibuat.
+Pastikan proses login, CRUD, pendaftaran, antrean, pemeriksaan, rekam medis, resep, obat,
+pembayaran, laporan, validasi, dan hak akses dapat berjalan dengan baik.
+24. Hasil Akhir
+Hasil akhir pengerjaan berupa Sistem Informasi Klinik Berbasis Web menggunakan CodeIgniter
+3 atau Laravel yang mampu mengelola proses pelayanan klinik secara terintegrasi mulai dari
+pendaftaran pasien sampai dengan pembayaran dan laporan.
+Standar penamaan function yang digunakan dalam seluruh proyek: nama_modul_data(),
+nama_modul_add(), nama_modul_edit(), nama_modul_hapus(), dan function lain yang
+diperlukan sesuai proses sistem.
